@@ -4034,7 +4034,8 @@ input[type=button].btn-block {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 1.5em;
+  /* width: 1.5em; imaxx*/
+  width: 3.5em;
   height: 1.5em;
   vertical-align: middle;
   content: "";
@@ -10221,3 +10222,5 @@ header.masthead h1 {
 
 /* .show,.show1,.show2 {display: block;} */
 .show{display: block;}
+.show1{display: block;}
+.show2{display: block;}

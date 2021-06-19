@@ -114,8 +114,8 @@ window.onclick = function (event) {
     if (!event.target.matches('.dropbtn2')) {
         var dropdowns2 = document.getElementsByClassName("dropbtn2");
         var i;
-        for (i = 0; i < dropdowns1.length; i++) {
-            var openDropdown = dropdowns1[i];
+        for (i = 0; i < dropdowns2.length; i++) {
+            var openDropdown = dropdowns2[i];
             if (openDropdown.classList.contains('show')) {
                 openDropdown.classList.remove('show');
             }
